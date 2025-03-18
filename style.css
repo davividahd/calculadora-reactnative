@@ -1,0 +1,64 @@
+import { StyleSheet } from 'react-native';
+
+const styles = StyleSheet.create({
+    Container: {
+      flex: 1,
+      backgroundColor: 'rgba(65, 157, 173, 0.2)',
+      alignItems: 'center',
+      justifyContent: 'center',
+    },
+  
+    texto: {
+      fontSize: 20,
+      fontWeight: 'bold',
+      color: '#6600CC',
+      boxShadow: 5,
+      
+    },
+  
+    Imagem: {
+      width: 200,
+      height: 180,
+      alignItems: 'center',
+      justifyContent: 'center',
+      marginBottom: 10,
+    },
+    Cabeçalho: {
+      alignItems: 'center',
+      backgroundColor: 'rgba(31, 58, 80, 0.2)',
+      flex: 1000,
+      justifyContent: 'center',
+      flexDirection: 'row',
+
+    },
+    Centro: {
+      alignItems: 'center',
+      backgroundColor: 'rgba(101, 181, 255, 0.2)',
+      flex: 10,
+      justifyContent: 'center',
+      flexDirection: 'column',
+    },
+    Entrada: {
+      alignItems: 'center',
+      justifyContent: 'row',
+      width: '80%',
+      height: 48,
+      color: 'white',
+      margin: 7,
+      borderRadius: 4,
+      padding: 7,
+      borderWidth: 2,
+      borderColor: 'white',
+      backgroundColor: 'rgba(101, 181, 255, 0.2)y',
+      flex:3
+
+    },
+    botao: {
+      alignItems: 'center',
+      backgroundColor: 'rgba(31, 58, 80, 0.2)',
+      flex: 100,
+      justifyContent: 'center',
+      flexDirection: 'row',
+}});
+
+export default styles;
